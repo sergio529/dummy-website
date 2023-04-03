@@ -107,13 +107,29 @@ ul
 .contact{
     background-color: #F9FAf8;
     color: white;
+    padding: 10vh 10%;
 }
 
-.contact .container{
+.contact-box {
     background-color: #3882F6;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px  100px;
+    border-radius: 10px;
+   
 
 }
-.contact .container .button{
-    width: 100px;    
+.sign-up{
+    width: 120px;  
+    height: 25px;  
+    border: solid white 2px;
+    background-color: #3882F6;
+    margin-left: 50px;
+    color: white;
+    border-radius: 10px;
+}
+
+footer{
+    text-align: center;
 }
